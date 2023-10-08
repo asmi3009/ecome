@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(b1.jpg);
+    background-size: cover;
+}
+.product {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+   position: fixed;
+}
+.btn.add-to-cart {
+    background-color: #28a745;
+    
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change the background color as desired */
+    color: #fff; /* Change the text color as desired */
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    padding: 60px 20px; /* Add padding to the content to avoid it being hidden by the fixed navbar */
+}
+.image-container {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    cursor: pointer;
+}
+.floating-buttons {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to change the vertical position */
+    right: 20px; /* Adjust this value to change the horizontal position */
+}
+
+/* Style for the individual buttons */
+.floating-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Style for the individual buttons on hover */
+.floating-button:hover {
+    background-color: #0056b3;
+}
+.mar{
+    color: burlywood;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 10px; /* Adjust this value to change the horizontal position */
+    transform: translateY(-50%);
+    z-index: 9999; /* Ensure icons are above other content */
+}
+
+.social-icons a {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Adjust the color to match your design */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change the color on hover */
+}
+.fa-facebook{
+    background-color: blue;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  .fa-whatsapp{
+    background-color: green;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  .fa-phone-square{
+    background-color: bisque;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  .fa-instagram{
+    background-color: fuchsia;
+    padding: 3px 5px;
+    border-radius: 5px;}
+    .fa-linkedin{
+        background-color: blue;
+        padding: 3px 5px;
+        border-radius: 5px;}
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
